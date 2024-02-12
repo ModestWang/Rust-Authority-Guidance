@@ -1,2 +1,3 @@
 # Rust-Authority-Guidance
-Learning Rust.
+
+Learning Rust 😁
