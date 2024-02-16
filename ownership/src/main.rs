@@ -1,3 +1,15 @@
+/**
+****************************************************************************************
+ * @FilePath: main.rs
+ * @Author: Modest Wang 1598593280@qq.com
+ * @Date: 2024-02-13 20:46:50
+ * @LastEditors:
+ * @LastEditTime: 2024-02-16 16:19:10
+ * @2024 by Modest Wang, All Rights Reserved.
+ * @Descripttion: ownership
+****************************************************************************************
+*/
+
 // Stack and Heap
 // Stack: LIFO, fixed size, fast, data must have a known size at compile time
 // Heap: dynamic size, slower, data can grow or shrink, data size need not be known at compile time

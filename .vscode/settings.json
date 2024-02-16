@@ -80,7 +80,7 @@
     "fileheader.configObj": {
         "createFileTime": true,
         "language": {
-            "c/cpp/h/hpp/java": {
+            "c/cpp/h/hpp/java/rs": {
                 "head": "/**\r\n****************************************************************************************",
                 "middle": " * @",
                 "end": "****************************************************************************************\r\n*/"
@@ -240,8 +240,4 @@
     "workbench.editorAssociations": {
         "*.pdf": "pdf.preview"
     },
-    "rust-analyzer.linkedProjects": [
-        ".\\package_\\Cargo.toml",
-        ".\\package_\\Cargo.toml"
-    ],
 }

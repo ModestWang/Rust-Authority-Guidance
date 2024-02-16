@@ -1,3 +1,14 @@
+/**
+****************************************************************************************
+ * @FilePath: main.rs
+ * @Author: Modest Wang 1598593280@qq.com
+ * @Date: 2024-02-10 19:21:54
+ * @LastEditors:
+ * @LastEditTime: 2024-02-16 16:18:10
+ * @2024 by Modest Wang, All Rights Reserved.
+ * @Descripttion: guessing_game
+****************************************************************************************
+*/
 use rand::Rng;
 use std::{cmp::Ordering, io};
 

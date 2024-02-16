@@ -1,12 +1,14 @@
-/*
+/**
+****************************************************************************************
  * @FilePath: main.rs
  * @Author: Modest Wang 1598593280@qq.com
  * @Date: 2024-02-12 23:27:30
- * @LastEditors: Please set LastEditors
- * @LastEditTime: 2024-02-13 20:56:47
- * 2024 by Modest Wang, All Rights Reserved.
- * @Descripttion:
- */
+ * @LastEditors:
+ * @LastEditTime: 2024-02-16 16:17:13
+ * @2024 by Modest Wang, All Rights Reserved.
+ * @Descripttion: branches
+****************************************************************************************
+*/
 
 fn main() {
     // $$条件分支

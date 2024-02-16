@@ -1,3 +1,15 @@
+/**
+****************************************************************************************
+ * @FilePath: main.rs
+ * @Author: Modest Wang 1598593280@qq.com
+ * @Date: 2024-02-12 10:52:43
+ * @LastEditors:
+ * @LastEditTime: 2024-02-16 16:17:48
+ * @2024 by Modest Wang, All Rights Reserved.
+ * @Descripttion: function
+****************************************************************************************
+*/
+
 fn main() {
     let x = 5;
     let y = 6;

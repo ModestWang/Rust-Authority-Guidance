@@ -1,3 +1,14 @@
+/*
+* @FilePath: main.rs
+* @Author: Modest Wang 1598593280@qq.com
+* @Date: 2024-02-11 23:29:07
+* @LastEditors:
+* @LastEditTime: 2024-02-16 16:11:55
+* 2024 by Modest Wang, All Rights Reserved.
+* @Descripttion: data_type
+
+*/
+
 fn main() {
     // Integer
     let int_example: i32 = 10;
