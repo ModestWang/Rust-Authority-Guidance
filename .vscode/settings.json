@@ -1,7 +1,7 @@
 {
     "editor.fontFamily": "'Jetbrains Mono', Consolas, 'Courier New', monospace",
     "editor.formatOnSave": true,
-    "editor.fontSize": 15,
+    "editor.fontSize": 14,
     "editor.mouseWheelZoom": true,
     "editor.minimap.enabled": false,
     "editor.minimap.showSlider": "always",
@@ -18,7 +18,7 @@
     "github.copilot.chat.localeOverride": "zh-CN",
     "search.followSymlinks": false,
     "window.commandCenter": false,
-    "workbench.iconTheme": "material-icon-theme",
+    "workbench.iconTheme": "office-material-icon-theme",
     "code-runner.saveFileBeforeRun": true,
     "code-runner.runInTerminal": true,
     "code-runner.executorMap": {
@@ -238,6 +238,6 @@
         }
     ],
     "workbench.editorAssociations": {
-        "*.pdf": "pdf.preview"
+        "*.pdf": "cweijan.officeViewer"
     },
 }
