@@ -1,29 +1,19 @@
 {
-    "editor.acceptSuggestionOnEnter": "off",
-    "editor.fontFamily": "'Jetbrains Mono', Consolas, 'Courier New', monospace",
-    "editor.formatOnSave": true,
-    "editor.inlineSuggest.suppressSuggestions": true,
     "editor.mouseWheelZoom": true,
-    "editor.minimap.enabled": false,
-    "extensions.ignoreRecommendations": true,
-    "git.confirmSync": true,
-    "github.copilot.editor.enableAutoCompletions": true,
+    "editor.acceptSuggestionOnEnter": "off",
+    "editor.fontFamily": "'JetbrainsMono NF', 'Jetbrains Mono', 'Microsoft Yahei UI', monospace",
     "files.autoSave": "afterDelay",
     "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true,
     "files.autoGuessEncoding": true,
-    "search.followSymlinks": false,
-    "vscode-office.editorTheme": "Auto",
-    "workbench.colorTheme": "Default Dark Modern",
-    "workbench.iconTheme": "office-material-icon-theme",
+    "git.confirmSync": false,
     "code-runner.saveFileBeforeRun": true,
     "code-runner.runInTerminal": true,
     "code-runner.executorMap": {
-        "bat": "cmd /c",
         "c": "cd $dir && gcc $fileName -o $fileNameWithoutExt && ./$fileNameWithoutExt && del $fileNameWithoutExt.exe",
         "cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt && ./$fileNameWithoutExt && del $fileNameWithoutExt.exe",
-        "python": "cd $dir && python -u $fileName",
-        "powershell": "powershell -ExecutionPolicy ByPass -File",
+        "python": "cd $dir && python $fileName",
+        //"rust": "cd $dir && rustc $fileName && $dir$fileNameWithoutExt",
         "rust": "cd $dir && cargo run",
     },
     "fileheader.configObj": {
@@ -146,6 +136,15 @@
     "editor.unicodeHighlight.allowedLocales": {
         "zh-hant": true
     },
+    "extensions.ignoreRecommendations": true,
+    "editor.inlineSuggest.suppressSuggestions": true,
+    "editor.minimap.enabled": false,
+    "window.commandCenter": false,
+    "workbench.editorAssociations": {
+        "{git,gitlens}:/**/*.{md,csv,svg}": "default"
+    },
+    "workbench.iconTheme": "material-icon-theme",
+    "explorer.compactFolders": false,
     "better-comments.tags": [
         {
             "tag": "!",
