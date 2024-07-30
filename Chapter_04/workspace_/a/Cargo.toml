@@ -1,0 +1,8 @@
+[package]
+name = "a"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+# 需要显示指明 crate 与 crate 之间的依赖关系
+b = { path = "../b" }
