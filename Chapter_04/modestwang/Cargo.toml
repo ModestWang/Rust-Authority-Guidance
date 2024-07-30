@@ -1,0 +1,9 @@
+[package]
+name = "modestwang"
+version = "0.0.1"
+edition = "2021"
+discription = "A demo created by ModestWang."
+authors = ["ModestWang"]
+license = "MIT"
+
+[dependencies]
